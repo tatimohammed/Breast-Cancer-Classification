@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="app.css">
+        <script src="app.js"></script>
+        <title>Breast Cancer | Data project</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+            rel="stylesheet">
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="header">
+            <h1>Breast Cancer Diagnostic</h1>
+            <h3>Developed by: <span>JALILI</span> & <span>TATI</span></h3>
+        </div>
+        <div class="main">
+            <div class="input">
+                <h6>Tumor Features</h6>
+                <hr>
+                <div class="tumor">
+                    <input id="f0" placeholder="Radius_mean" type="text">
+                    <input id="f1" placeholder="Perimeter_mean" type="text">
+                    <input id="f2" placeholder="Area_mean" type="text">
+                    <input id="f3" placeholder="Concavity_mean" type="text">
+                    <input id="f4" placeholder="Concave points_mean" type="text">
+                    <input id="f5" placeholder="Radius_worst" type="text">
+                    <input id="f6" placeholder="Perimeter_worst" type="text">
+                    <input id="f7" placeholder="Area_worst" type="text">
+                    <input id="f8" placeholder="Concavity_worst" type="text">
+                    <input id="f9" placeholder="Concave points_worst" type="text">
+                </div>   
+            </div>
+            <div>
+                <i class="fa-solid fa-angles-right" id="btn" onclick="malignancy()"></i>
+            </div>
+            <div class="output">
+                <h6>Diagnostic</h6>
+                <hr>
+                <h6 class="diagno" id="diag"></h6>
+            </div>
+        </div>
+       
+        
+    </body>
+</html>
