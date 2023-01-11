@@ -1,6 +1,0 @@
-Model,Score
-RandomForestClassifier,0.9926013613495117
-GaussianNB,0.9886060964782479
-DecisionTreeClassifier,0.9528706717963895
-KNeighborsClassifier,0.945546019532406
-LogisticRegression,0.9424385912992009
